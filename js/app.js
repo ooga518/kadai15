@@ -12,7 +12,7 @@ $(function() {
             //リクエスト先のURLを設定
             url: 'api.php',
             //送信データの設定
-            date: {
+            data: {
                 no: input_no,
                 score: input_score
             }
